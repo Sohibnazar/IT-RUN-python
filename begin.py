@@ -88,6 +88,12 @@ def lodka_1(V,U,T1,T2):
     print( "Расстояния пройденный лодки: ",S)
 lodka_1(4,2,4,2)
 #Begin-36
+def auto_1(V1,V2,T,S):
+    P=abs(S+(V1+V2)*T)
+    print("Расстояния между ними через Т часов: "+str(P))
+auto_1(4,7,3,20)
+
+#Begin-37
 def auto(V1,V2,T,S):
     P=abs(S-(V1+V2)*T)
     print("Расстояния между ними через Т часов: "+str(P))
